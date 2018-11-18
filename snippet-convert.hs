@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --resolver lts-10.2 script
+-- stack --resolver lts-10.2 --install-ghc runghc --package turtle
 {-# LANGUAGE OverloadedStrings #-}
 
 import           Data.Maybe
