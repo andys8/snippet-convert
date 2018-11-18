@@ -7,7 +7,15 @@ Experimental vscode to UltiSnips snippet conversion
 * Install `stack`
 * `stack install turtle`
 
-## Run
+## Execute
 
 * `chmod u+x snippet-convert.hs`
-* `./snippet-convert.hs`
+* `./snippet-convert.hs example.json`
+
+## Run in GHCI
+
+```sh
+$ run ghci
+> :l snippets-convert.hs
+> convertSnippets "{}"
+```
