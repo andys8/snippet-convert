@@ -1,4 +1,5 @@
 # snippet-convert
+[![Build Status](https://travis-ci.org/andys8/snippet-convert.svg?branch=master)](https://travis-ci.org/andys8/snippet-convert)
 
 Experimental vscode to UltiSnips snippet conversion
 
