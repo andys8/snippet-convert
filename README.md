@@ -19,3 +19,8 @@ $ run ghci
 > :l snippets-convert.hs
 > convertSnippets "{}"
 ```
+## Run with Docker
+
+```sh
+docker run -it -v $(pwd):/app --rm haskell:8.2 stack --system-ghc /app/snippet-convert.hs
+```
